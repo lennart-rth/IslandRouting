@@ -4,6 +4,9 @@ A routing and map-tiles generation script to find possible routes for swimpackin
 
 The aim is to find a graph of connected islands that are reachable within a certain distance you are capable to swim. This script builds a nxGraph from the islands where you can find shortest path from island A to island B.
 
+![Map Preview](data/map_preview.png)
+![Map Preview 2](data/small_preview2.png)
+
 Additionaly it marks islands that:
 1. finds all neigbouring islands and draws a line between the shortest distances 
 2. are not reachable from the mainland
